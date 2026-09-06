@@ -1,0 +1,34 @@
+site_name: Enclave Messenger Docs
+site_url: https://messenger.docs.projectenclave.dev
+
+repo_url: https://github.com/Project-Enclave/Docs
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.sections
+    - navigation.expand
+    - search.highlight
+
+nav:
+  - Overview: 01-overview.md
+  - Architecture: 02-architecture.md
+  - Security Model: 03-security-model.md
+  - Installation: 04-installation.md
+  - Configuration: 05-configuration.md
+  - Usage: 06-usage.md
+  - Plugins: 07-plugins.md
+  - Development: 08-development.md
+  - Testing: 09-testing.md
+  - Deployment: 10-deployment.md
+  - Troubleshooting: 11-troubleshooting.md
