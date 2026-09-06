@@ -8,7 +8,7 @@ This repository hosts the documentation for **Enclave Messenger**, a local-first
 - Assets (screenshots, videos): https://github.com/Project-Enclave/assets
 - Setup scripts: https://github.com/Project-Enclave/setup
 
-## Local development
+## Running this (You should not need to run this but whatever)
 
 ```bash
 pip install mkdocs mkdocs-material
