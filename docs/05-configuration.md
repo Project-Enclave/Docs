@@ -18,7 +18,8 @@ Enclave Messenger stores configuration per profile in ~/.enclave-messenger/profi
 │           └── x25519.pem
 └── registry.json
 
-7 directories, 6 files```
+7 directories, 6 files
+```
 > My chats folder is empty because i dont have any chats rn... sorry,
 
 ## Profile configuration
