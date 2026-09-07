@@ -38,7 +38,11 @@ Run:
 curl -sL https://raw.githubusercontent.com/Project-Enclave/setup/main/messenger.bat -o %TEMP%enclave-setup.bat
 %TEMP%enclave-setup.bat
 ```
+## The Setup Process
 
+The setup script will print a lot of stuff, you can ignore that if you want. But there will be stuff that you have to fill like your posts, name, passphrase, etc
+
+![A photo of Pradhya going through the setup](https://github.com/Project-Enclave/assets/blob/main/Screenshots/Fri%20Sep%20%204%2004:38:11%20PM%20IST%202026%20Shell-Install-Passkey-Empty.jpg?raw=true)
 ## Run Enclave
 
 ### TUI
@@ -64,6 +68,28 @@ If you got it correct, then you'll see this!
 python web.py
 ```
 
+The shell will look like this-
+
+![A photo of web.py running right after set.py is done](https://github.com/Project-Enclave/assets/blob/main/Screenshots/Fri%20Sep%20%204%2004:43:19%20PM%20IST%202026%20Shell-Enclave-Messenger-Web-Start.jpg?raw=true)
+
+When you go to the link given, you'll see this,
+
+![The login modal on localhost](https://github.com/Project-Enclave/assets/blob/main/Screenshots/Fri%20Sep%20%204%2004:44:46%20PM%20IST%202026%20Web-Passkey-Empty.jpg?raw=true)
+
+Fill it up!
+
+![The login modal on localhost, but filled!](https://github.com/Project-Enclave/assets/blob/main/Screenshots/Fri%20Sep%20%204%2004:45:18%20PM%20IST%202026%20Web-Passkey-Filled.jpg?raw=true)
+
+Tada! You've made it to the home screen!
+
+![The home for the web UI on localhost](https://github.com/Project-Enclave/assets/blob/main/Screenshots/Fri%20Sep%20%204%2004:45:49%20PM%20IST%202026%20Web-Home.jpg?raw=true)
+
+You can (and you should) set up other stuff via the web UI in the settings modal like display name and make new profiles to seperate stuff or to test the messenger out!
+
+![The setting modal in the profile section](https://github.com/Project-Enclave/assets/blob/main/Screenshots/Fri%20Sep%20%204%2004:46:55%20PM%20IST%202026%20Web-Settings-Profile-Filled.jpg?raw=true)
+
+The long string is just your client id (Aka enclave id)
+
 Then open the displayed URL (typically `http://localhost:<port>`) in a browser.
 
 ## First-run flow
@@ -75,3 +101,4 @@ On first run, Enclave will:
 3. Create initial configuration and key files under the profile directory.  
 
 Screenshots of this flow are available in the [Project-Enclave/assets](https://github.com/Project-Enclave/assets) repository.
+Ill add how to test the messenger on the same device on a different file.
