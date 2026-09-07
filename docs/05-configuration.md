@@ -3,15 +3,11 @@
 Enclave Messenger stores configuration per profile in ~/.enclave-messenger/profiles using the core/storage/config_store.py module.
 
 ```text
-(.venv) Pradhya@Pradhya-HP-Laptop-14q-cs0xxx ~/.enclave-messenger> tree
+(.venv) pradhya@pradhya-HP-Laptop-14q-cs0xxx ~/.enclave-messenger> tree
 .
 ├── plugins
 │   └── README.md
 ├── profiles
-│   ├── default
-│   │   ├── chats
-│   │   ├── config
-│   │   └── identity
 │   └── PradhyaTheFirst
 │       ├── chats
 │       ├── config
@@ -22,8 +18,7 @@ Enclave Messenger stores configuration per profile in ~/.enclave-messenger/profi
 │           └── x25519.pem
 └── registry.json
 
-11 directories, 6 files
-```
+7 directories, 6 files```
 > My chats folder is empty because i dont have any chats rn... sorry,
 
 ## Profile configuration
