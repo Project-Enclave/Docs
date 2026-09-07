@@ -56,7 +56,7 @@ python tui.py
 Fill your password so it looks like this-
 
 ![TUI where it hasnt been unlocked and is not empty](https://github.com/Project-Enclave/assets/blob/main/Screenshots/Fri%20Sep%20%204%2004:40:15%20PM%20IST%202026%20TUI-Passkey-Filled.jpg?raw=true)
-> Note: DO NOT USE A SHORT/UNSECURE PASSWORD! PLEASE!
+> Note: DO NOT USE A SHORT/INSECURE PASSWORD! PLEASE!
 
 If you got it correct, then you'll see this!
 
