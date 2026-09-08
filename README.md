@@ -1,45 +1,26 @@
 # Enclave Messenger Documentation
 
-> A peer-to-peer messenger designed to keep working across available transports.
+This repository hosts the documentation for **Enclave Messenger**, a local-first, end-to-end encrypted messaging system.
 
-Enclave Messenger is an early-stage, local-first messaging project built around peer discovery, multiple transport layers, cryptographic identities, and end-to-end encrypted messages.
+- Live docs: https://messenger.docs.projectenclave.dev
+- Messenger code: https://github.com/Project-Enclave/Enclave-Messenger
+- Website: https://github.com/Project-Enclave/Enclave-Messenger-Site
+- Assets (screenshots, videos): https://github.com/Project-Enclave/assets
+- Setup scripts: https://github.com/Project-Enclave/setup
 
-!!! warning "Project status"
-    Enclave Messenger is under active development. It has not received a formal security audit. Do not treat it as suitable for high-risk communications yet.
+## Running This 
+> (You should not need to run this but whatever)
 
-## Start here
+```bash
+pip install mkdocs mkdocs-material
+mkdocs serve
+```
 
-<div class="grid cards" markdown>
+Then open http://127.0.0.1:8000 or whatever youve setup in your browser.
 
--   :material-download: **Install Enclave**
+## Structure
 
-    ---
+- `docs/` – Markdown source for the site  
+- `mkdocs.yml` – MkDocs configuration    
 
-    Set up the messenger locally.
-
-    [Installation](04-installation.md)
-
--   :material-book-open-variant: **Understand the architecture**
-
-    ---
-
-    Learn how crypto, networking, storage, and plugins fit together.
-
-    [Architecture](02-architecture.md)
-
--   :material-shield-lock: **Review the security model**
-
-    ---
-
-    Understand the protections and current limitations.
-
-    [Security model](03-security-model.md)
-
-</div>
-
-## Project links
-
-- [Messenger source code](https://github.com/Project-Enclave/Enclave-Messenger)
-- [Setup scripts](https://github.com/Project-Enclave/setup)
-- [Assets and screenshots](https://github.com/Project-Enclave/assets)
-- [Project website](https://github.com/Project-Enclave/Enclave-Messenger-Site)
+Contributions should update the relevant files under `docs/`.
