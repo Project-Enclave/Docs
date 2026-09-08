@@ -4,21 +4,35 @@ site_url: https://messenger.docs.projectenclave.dev
 repo_url: https://github.com/Project-Enclave/Docs
 edit_uri: edit/main/docs/
 
+extra_css:
+  - assets/extra.css
+
 theme:
   name: material
+  custom_dir: overrides
   palette:
     - scheme: default
       toggle:
         icon: material/brightness-7
-        name: Switch to dark mode
+        name: Switch to light mode
     - scheme: slate
       toggle:
         icon: material/brightness-4
-        name: Switch to light mode
+        name: Switch to dark mode
   features:
     - navigation.sections
     - navigation.expand
     - search.highlight
+    - content.code.copy
+
+markdown_extensions:
+  - admonition
+  - codehilite:
+      linenums: false
+  - toc:
+      permalink: true
+  - tables
+  - fenced_code
 
 nav:
   - Overview: 01-overview.md
