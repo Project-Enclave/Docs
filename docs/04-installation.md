@@ -27,7 +27,7 @@ curl -sL https://raw.githubusercontent.com/Project-Enclave/setup/main/messenger.
 #### Powershell
 
 Run:
-'''cmd
+```cmd
 irm https://raw.githubusercontent.com/Project-Enclave/setup/main/messenger.ps1 -OutFile $env:TEMPenclave-setup.ps1; & $env:TEMPenclave-setup.ps1
 ```
 
