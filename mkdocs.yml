@@ -1,27 +1,42 @@
 site_name: Enclave Messenger Docs
 site_url: https://messenger.docs.projectenclave.dev
-
+site_description: Documentation for Enclave Messenger, a peer-to-peer encrypted messenger.
 repo_url: https://github.com/Project-Enclave/Docs
+repo_name: Project-Enclave/Docs
 edit_uri: edit/main/docs/
+
+use_directory_urls: true
+strict: false
 
 extra_css:
   - assets/extra.css
 
-extra_js:
+extra_javascript:
   - assets/theme-font.js
 
 theme:
   name: material
   custom_dir: overrides
+  font: false
+
   palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: Use dark mode
+
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Use light mode
+
     - scheme: default
       toggle:
-        icon: material/brightness-7
-        name: Switch to light mode
-    - scheme: slate
-      toggle:
-        icon: material/brightness-4
-        name: Switch to dark mode
+        icon: material/format-float-left
+        name: Use system preference
+
   features:
     - navigation.sections
     - navigation.expand
@@ -30,14 +45,12 @@ theme:
 
 markdown_extensions:
   - admonition
-  - codehilite:
-      linenums: false
+  - tables
   - toc:
       permalink: true
-  - tables
-  - fenced_code
 
 nav:
+  - Home: index.md
   - Overview: 01-overview.md
   - Architecture: 02-architecture.md
   - Security Model: 03-security-model.md
