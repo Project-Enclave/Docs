@@ -7,6 +7,9 @@ edit_uri: edit/main/docs/
 extra_css:
   - assets/extra.css
 
+extra_js:
+  - assets/theme-font.js
+
 theme:
   name: material
   custom_dir: overrides
