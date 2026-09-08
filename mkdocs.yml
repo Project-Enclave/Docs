@@ -24,7 +24,8 @@ extra:
       make our documentation better.
 
 plugins:
-  - privacy
+  - search
+  - privacy:
       assets: false
 
 theme:
