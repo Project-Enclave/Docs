@@ -4,7 +4,7 @@ These instructions cover installing and running Enclave Messenger on your system
 
 ## Requirements
 
-- Python 3.10+ (or your minimum supported version)  
+- Python 3.10+ 
 - pip and a working virtualenv setup (recommended)  
 - For Bluetooth plugin: working Bluetooth stack and permissions  
 - For SMS gateway plugin: appropriate hardware/gateway access  
